@@ -11,7 +11,7 @@ class HelloWorld {
 		name blank:false
 		lastName blank:false
 		age nullable:false
-		sex blank:false
+		sex blank:false, inList:["Masculino", "Femenino"]
 		city blank:false, inList:["Boaco", "Carazo", "Chinandega", "Chontales", "Estelí", "Granada", "Jinotega", "León", "Madriz", "Managua", "Masaya", "Matagalpa", "Nueva Segovia", "Rivas", "Río San Juan", "RAAN", "RAAS"]
     }
 }

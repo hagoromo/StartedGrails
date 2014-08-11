@@ -35,8 +35,9 @@
 					<tr>
 						<td><label>Sex:</label></td>
 						<td>
-							Male <input type="radio" name="sex" value="1" />
-							Female <input type="radio" name="sex" value="2" />
+							<g:radioGroup name="sex" values="['Masculino', 'Femenino']" labels="['Masculino', 'Femenino']">
+								<p><g:message code="${it.label}"/>: ${it.radio}</p>
+							</g:radioGroup>
 						</td>
 					</tr>
 					<tr>
